@@ -1,0 +1,15 @@
+/* tailwind css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* scrollbar style */
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+/* global styles */
+.fil path:hover {
+    fill: #2bd0d0;
+}
